@@ -7,3 +7,5 @@
 #      - What you entered is xx characters long
 # 3. Return to step 1, unless the word 'quit' was entered.
 
+x = input('Enter a phrase: ')
+print('Your phrase is' + str(len(x)))

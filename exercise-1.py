@@ -2,7 +2,7 @@
 
 # Write the code that:
 # 1. Prompts the user to enter a letter in the alphabet:
-#      Please enter a letter from the alphabet (a-z or A-Z): 
+#      - Please enter a letter from the alphabet (a-z or A-Z): 
 # 2. Write the code that determines whether the letter entered is a vowel
 # 3. Print one of following messages (substituting the letter for x):
 #      - The letter x is a vowel
@@ -10,3 +10,10 @@
 
 # Hints:  Use the in operator to check if a character is in another string
 #         For example, if some_char in 'abc':
+
+x = input('Enter a letter in alpabet: ')
+vowels = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']
+if x in vowels:
+    print('The Letter ' + x + ' is a vowel')
+else:
+    print('The Letter ' + x + ' is a constant')
