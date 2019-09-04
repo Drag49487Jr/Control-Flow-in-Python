@@ -12,3 +12,16 @@
 #      etc.
 
 # Hint: The next number is found by adding the two numbers before it
+total = 0
+num1 = 0
+num2 = 1
+
+while total < 50:
+    if total < 2:
+        print(f'term = {total} | number = {total}')
+    else:
+        next_num = num1 + num2
+        print(f'term = {total} | number = {next_num}')
+        num1 = num2
+        num2 = next_num
+    total += 1

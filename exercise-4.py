@@ -18,7 +18,7 @@ b = input('Enter second length of the triangle: ')
 c = input('Enter third length of the triangle: ')
 
 if a == b and a == c:
-    print(f'A triangle with sides of {a}, {b}, {c} is a equalateral of triangle')
+    print(f'A triangle with sides of {a}, {b},{c}is a equalateral of triangle')
 elif a == b or a == c:
     print(f'A triangle with sides of {a}, {b}, {c} is a isosceles of triangle')
 else:
